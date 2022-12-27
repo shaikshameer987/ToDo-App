@@ -1,0 +1,42 @@
+.todo__list__items {
+    color: rgba(255, 255, 255, 0.932);
+}
+.todo__item {
+    display: flex;
+    padding: 12px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.text__container {
+    flex-grow: 1;
+    margin-right: 20px;
+}
+.buttons__container {
+    display: flex;
+    column-gap: 20px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    background-color: #2e5555;
+    cursor: pointer;
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+.edit__input {
+    background: transparent;
+    height: 25px;
+    width: 100%;
+    padding-left: 0px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+}
+.font {
+    font-size: 15px;
+}
