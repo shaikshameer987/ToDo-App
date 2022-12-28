@@ -30,7 +30,10 @@ function ToDoItem({item,parentIndex}) {
                     <p className='font'>{item}</p>
                 } 
             </div>
-            <div className='buttons__container' style={{alignItems: editMode ? "center" : "flex-start"}}>
+            <div 
+                className='buttons__container' 
+                style={{alignItems: editMode ? "center" : "flex-start", display: editMode && "flex"}}
+            >
                 <button 
                     className='button'
                     onClick={() => {

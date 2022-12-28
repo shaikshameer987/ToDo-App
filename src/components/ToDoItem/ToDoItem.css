@@ -65,11 +65,21 @@
     .text__container {
         display: flex;
         align-items: center;
+        order: 1;
+        margin: 0;
     }
     .buttons__container {
         column-gap: 10px;
+        align-self: flex-end;
+        display: none;
     }
     .todo__item {
         padding: 10px;
+        flex-direction: column;
+        row-gap: 10px;
     }
+}
+
+.todo__item:hover .buttons__container{
+    display: flex;
 }
