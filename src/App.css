@@ -9,6 +9,7 @@
 .heading {
     color: white;
     font-weight: 400;
+    font-size: 20px;
 }
 header {
     margin: 0 auto;
@@ -21,3 +22,13 @@ header {
         margin: 20px;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .App {
+        margin: 0px;
+        border-radius: 0;
+        min-height: 100vh;
+        padding: 15px;
+    }
+}
+

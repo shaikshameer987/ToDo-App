@@ -10,7 +10,7 @@ function App() {
     return (
         <div className='App'>
             <header>
-                <h2 className='heading'>ToDo List</h2>
+                <p className='heading'>ToDo List</p>
             </header>
             <ToDoForm />
             <div className='todo__list__items'>
